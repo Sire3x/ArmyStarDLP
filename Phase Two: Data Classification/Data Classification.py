@@ -8,6 +8,9 @@ from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
+#Created and Tested using Images as proof of concept, can become applicable to other data types given formatting of this 
+#and understanding how BruteShark Extracts.
+
 # Path to your dataset
 train_data_dir = r'C:\Users\User\PycharmProjects\pythonProject\my_project\train'
 test_data_dir = r'C:\Users\User\Downloads\test\test'
