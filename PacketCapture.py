@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pyshark
 import pandas as pd
 
-"""Name: Tyler Furches, Parker Langenberg, Chad Dailey (DOG), Dylan Acosta, Dylan Wilson
+"""Name: Tyler Furches, Parker Langenberg, Chad Dailey, Dylan Acosta, Dylan Wilson
 Start Date 1/25/2024
 Research Project: ADD A DESCRIPTION HERE"""
 
