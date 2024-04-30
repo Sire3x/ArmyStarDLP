@@ -3,26 +3,7 @@ import pyshark
 import pandas as pd
 
 """Name: Tyler Furches, Parker Langenberg, Chad Dailey, Dylan Acosta, Dylan Wilson
-Start Date 1/25/2024
-Research Project: ADD A DESCRIPTION HERE"""
-
-
-"""Notes from 1/25/2024: Live capture is working and packet data is printing inside of the PyCharm console below
- streamlit is no longer working and we are still trying to fix that and come to a consensus on how to get the data that is captured into the array to write into it
- I have tried writing the file as a csv file but even when i set data = read_csv and then use streamlit and pandas to write it is giving me an error and I am unsure as to why.
- 
- Next Steps: With basic Data now captured the categorization of the data and what we can do with it is the next step.  Figuring out if it is secure as well as if it is too slow on a large scale
- is something that also needs to be considered as none of the runs done today lasted more than 30 seconds and at some points were still producing near 500 packets making the bar graph difficult to interpret."""
-                 #If streamlit is being used must use cmd prompt and command -> "streamlit run ResearchProject.py"
-
-
-
-
-###################################SECTION ONE OF THE PROJECT: Capturing Data/Wireshark Collection##################################################
-#Goal of this section is to capture live data from wireshark and turn it into a CSV File, this CSV file will then be used
-#In Section 2.  The idea is to turn a live capture of wireshark and turn that into a csv file that csv file will then be
-#used by streamlit and turn into a data table for localhost.  Could also potentially trying manipulating a pcap file
-#and messing around with that for streamlit if possible.
+Start Date 1/25/2024"""
 
 
 filename = input("Please Enter the Output File Name & have it end in .csv OR .pcap")    #Could make this work with static based off an Or statement
